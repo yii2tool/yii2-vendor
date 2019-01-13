@@ -52,9 +52,9 @@ class Domain extends \yii2lab\domain\Domain {
 					'email' => 'theyamshikov@yandex.ru',
 					'owners' => [
 					    'yii2bundle',
-						/*'yii2lab',
-						'yii2module',
-						'yii2guide',*/
+						'yii2rails',
+						'yii2team',
+						'yii2tool',
 					],
 				],
 				'pretty',

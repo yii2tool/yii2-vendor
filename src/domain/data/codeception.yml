@@ -4,7 +4,7 @@ paths:
     data: tests/_data
     helpers: tests/_support
 settings:
-    bootstrap: ../../../../yii2bundle/yii2-test/src/base/_bootstrap.php
+    bootstrap: ../../../../yii2tool/yii2-test/src/base/_bootstrap.php
     colors: false
     memory_limit: 1024M
 modules:
