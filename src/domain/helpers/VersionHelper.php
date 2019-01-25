@@ -206,6 +206,9 @@ class VersionHelper {
 	}
 	
 	private static function getLastFromTree($tree) {
+	    if(empty($tree)) {
+	        return 0;
+        }
 		$versions = array_keys($tree);
 		return \yii2mod\helpers\ArrayHelper::last($versions);
 	}
