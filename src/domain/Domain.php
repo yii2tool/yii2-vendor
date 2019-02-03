@@ -50,12 +50,6 @@ class Domain extends \yii2lab\domain\Domain {
 				'generator' => [
 					'author' => 'Yamshikov Vitaliy',
 					'email' => 'theyamshikov@yandex.ru',
-					'owners' => [
-					    'yii2bundle',
-						'yii2rails',
-						'yii2team',
-						'yii2tool',
-					],
 				],
 				'pretty',
 			],

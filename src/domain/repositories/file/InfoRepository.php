@@ -71,7 +71,8 @@ class InfoRepository extends BaseRepository implements ReadInterface {
 	public function all(Query $query = null) {
 		$query = Query::forge($query);
 		$queryClone = $this->removeRelationWhere($query);
-		$list = RepositoryHelper::allByOwners($this->domain->generator->owners);
+        $ownerNames = \App::$domain->package->group->allNames();
+		$list = RepositoryHelper::allByOwners($ownerNames);
 		$list = $this->separateCollection($list);
 		$filteredList = ArrayIterator::allFromArray($queryClone, $list);
 		$listWithRelation = [];
