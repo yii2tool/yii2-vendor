@@ -39,8 +39,6 @@ return [
         					'email' => 'author@email.com',
         					'owners' => [
 					            'yii2bundle',
-        						/*'yii2lab',
-        						'yii2module',*/
         					],
         				],
         			],
