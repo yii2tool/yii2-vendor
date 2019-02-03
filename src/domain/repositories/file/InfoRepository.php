@@ -26,7 +26,7 @@ use yii2module\vendor\domain\helpers\UseHelper;
  */
 class InfoRepository extends BaseRepository implements ReadInterface {
 	
-	protected $withList = ['branch', 'has_changes', 'has_readme', 'has_changelog', 'has_guide', 'has_license', 'has_test', 'version', 'need_release', 'head_commit', 'remote_url'];
+	protected $withList = ['group', 'branch', 'has_changes', 'has_readme', 'has_changelog', 'has_guide', 'has_license', 'has_test', 'version', 'need_release', 'head_commit', 'remote_url'];
 	
 	public function isExistsById($id) {
 		try {
@@ -70,6 +70,7 @@ class InfoRepository extends BaseRepository implements ReadInterface {
 	
 	public function all(Query $query = null) {
 		$query = Query::forge($query);
+        $query->with(['group']);
 		$queryClone = $this->removeRelationWhere($query);
         $ownerNames = \App::$domain->package->group->allNames();
 		$list = RepositoryHelper::allByOwners($ownerNames);
@@ -215,6 +216,9 @@ class InfoRepository extends BaseRepository implements ReadInterface {
 			if(in_array('remote_url', $with)) {
 				$item['remote_url'] = $repo->showRemote();
 			}
+            if(in_array('group', $with)) {
+                $item['group'] = \App::$domain->package->group->oneByName($item['owner']);
+            }
 		}
 		$item = RepositoryHelper::getHasInfo($item, $with);
 		return $item;

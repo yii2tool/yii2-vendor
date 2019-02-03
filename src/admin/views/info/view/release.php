@@ -6,10 +6,10 @@
  */
 
 use yii2module\vendor\domain\helpers\VersionHelper;
+use yii2lab\extension\widget\helpers\WidgetHelper;
 
-$releaseUrl = VersionHelper::generateUrl($entity, 'newTag', [
-	'package' => $entity->package,
-]);
+$params = $entity->toArray();
+$releaseUrl = WidgetHelper::renderTemplateByRepo($entity, 'new_tag');
 
 ?>
 

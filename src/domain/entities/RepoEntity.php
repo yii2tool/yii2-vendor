@@ -3,6 +3,7 @@
 namespace yii2module\vendor\domain\entities;
 
 use yii2lab\domain\BaseEntity;
+use yii2lab\extension\package\domain\entities\GroupEntity;
 use yii2mod\helpers\ArrayHelper;
 use yii2module\vendor\domain\helpers\VersionHelper;
 
@@ -28,6 +29,7 @@ use yii2module\vendor\domain\helpers\VersionHelper;
  * @property $need_release
  * @property $version
  * @property $remote_url
+ * @property GroupEntity $group
  */
 class RepoEntity extends BaseEntity {
 	
@@ -46,6 +48,7 @@ class RepoEntity extends BaseEntity {
 	protected $has_test;
 	protected $required_packages;
 	protected $remote_url;
+    protected $group;
 
 	public function fieldType() {
 		return [
@@ -57,6 +60,7 @@ class RepoEntity extends BaseEntity {
 				'type' => CommitEntity::class,
 				'isCollection' => true,
 			],
+            'group' => GroupEntity::class,
 			'has_changes' => 'boolean',
 		];
 	}
