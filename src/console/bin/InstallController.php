@@ -22,7 +22,8 @@ class InstallController extends \yii\base\Component
 	}
 	
 	private function inputPackage() {
-		$ownerSelect = Select::display('Select owner', \App::$domain->vendor->generator->owners);
+        $ownerNames = \App::$domain->package->group->allNames();
+		$ownerSelect = Select::display('Select owner', $ownerNames);
 		$owner = Select::getFirstValue($ownerSelect);
 		$names = \App::$domain->vendor->info->shortNamesByOwner($owner);
 		$nameSelect = Select::display('Select package', $names);

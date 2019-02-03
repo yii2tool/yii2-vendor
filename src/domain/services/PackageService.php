@@ -95,7 +95,7 @@ class PackageService extends BaseActiveService {
 	}
 	
 	private function toDev($config) {
-		$owners = \App::$domain->vendor->generator->owners;
+        $owners = \App::$domain->package->group->allNames();
 		foreach($config as $fullName => &$version) {
 			$arr = explode(SL, $fullName);
 			if(count($arr) > 1) {

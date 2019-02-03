@@ -39,7 +39,8 @@ class GeneratorController extends \yii\base\Component
 	}
 	
 	private function inputPackage() {
-		$owners = array_unique(\App::$domain->vendor->generator->owners);
+        $ownerNames = \App::$domain->package->group->allNames();
+		$owners = array_unique($ownerNames);
 		$ownerSelect = Select::display('Select owner', $owners);
 		$owner = Select::getFirstValue($ownerSelect);
 		$name = Enter::display('Enter vendor name');
