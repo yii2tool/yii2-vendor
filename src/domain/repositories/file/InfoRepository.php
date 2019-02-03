@@ -4,12 +4,12 @@ namespace yii2module\vendor\domain\repositories\file;
 
 use yii\base\InvalidArgumentException;
 use yii\web\NotFoundHttpException;
-use yii2lab\extension\scenario\collections\ScenarioCollection;
-use yii2lab\extension\arrayTools\helpers\ArrayIterator;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\interfaces\repositories\ReadInterface;
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\extension\scenario\collections\ScenarioCollection;
+use yii2rails\extension\arrayTools\helpers\ArrayIterator;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\interfaces\repositories\ReadInterface;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2module\vendor\domain\entities\RepoEntity;
 use yii2module\vendor\domain\entities\RequiredEntity;
 use yii2module\vendor\domain\filters\IsIgnoreFilter;
@@ -144,7 +144,7 @@ class InfoRepository extends BaseRepository implements ReadInterface {
 	/**
 	 * @param $collection
 	 *
-	 * @return \yii2lab\domain\values\BaseValue
+	 * @return \yii2rails\domain\values\BaseValue
 	 */
 	private function separateCollection($collection) {
 		$filters = [

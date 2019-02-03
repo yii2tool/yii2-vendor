@@ -3,12 +3,12 @@
 namespace yii2module\vendor\domain\filters\generator;
 
 use yii\helpers\Inflector;
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\code\entities\ClassEntity;
-use yii2lab\extension\code\entities\DocBlockEntity;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
-use yii2lab\extension\code\enums\AccessEnum;
-use yii2lab\extension\code\helpers\ClassHelper;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\code\entities\ClassEntity;
+use yii2rails\extension\code\entities\DocBlockEntity;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\extension\code\enums\AccessEnum;
+use yii2rails\extension\code\helpers\ClassHelper;
 
 /**
  * Class EntityGenerator

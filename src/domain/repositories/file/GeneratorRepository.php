@@ -2,9 +2,9 @@
 
 namespace yii2module\vendor\domain\repositories\file;
 
-use yii2lab\extension\scenario\collections\ScenarioCollection;
-use yii2lab\extension\scenario\helpers\ScenarioHelper;
-use yii2lab\domain\repositories\BaseRepository;
+use yii2rails\extension\scenario\collections\ScenarioCollection;
+use yii2rails\extension\scenario\helpers\ScenarioHelper;
+use yii2rails\domain\repositories\BaseRepository;
 
 class GeneratorRepository extends BaseRepository {
 	

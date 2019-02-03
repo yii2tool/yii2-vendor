@@ -2,8 +2,8 @@
 
 namespace yii2module\vendor\domain\entities;
 
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\package\domain\entities\GroupEntity;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\package\domain\entities\GroupEntity;
 use yii2mod\helpers\ArrayHelper;
 use yii2module\vendor\domain\helpers\VersionHelper;
 

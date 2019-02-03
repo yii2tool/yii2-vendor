@@ -28,7 +28,7 @@ return [
 	'components' => [
 		// ...
 		'vendor' => [
-        			'class' => 'yii2lab\domain\Domain',
+        			'class' => 'yii2rails\domain\Domain',
         			'path' => 'yii2module\vendor\domain',
         			'repositories' => [
         				'generator' => Driver::FILE,

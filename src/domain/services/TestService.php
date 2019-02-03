@@ -2,8 +2,8 @@
 
 namespace yii2module\vendor\domain\services;
 
-use yii2lab\domain\services\base\BaseActiveService;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\services\base\BaseActiveService;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii\helpers\ArrayHelper;
 use yii2module\vendor\domain\repositories\file\TestRepository;
 

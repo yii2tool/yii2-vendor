@@ -3,9 +3,9 @@
 namespace yii2module\vendor\console\bin;
 
 use Yii;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\console\base\Controller;
-use yii2lab\extension\shell\exceptions\ShellException;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\console\base\Controller;
+use yii2rails\extension\shell\exceptions\ShellException;
 
 class GitController extends \yii\base\Component
 {

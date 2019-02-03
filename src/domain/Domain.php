@@ -2,7 +2,7 @@
 
 namespace yii2module\vendor\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
@@ -16,7 +16,7 @@ use yii2lab\domain\enums\Driver;
  * @property \yii2module\vendor\domain\services\PrettyService $pretty
  * @property-read \yii2module\vendor\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [

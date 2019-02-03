@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View
- * @var $entity yii2lab\domain\BaseEntity
+ * @var $entity yii2rails\domain\BaseEntity
  */
 
 use yii\data\ArrayDataProvider;

@@ -3,10 +3,10 @@
 namespace yii2module\vendor\domain\helpers;
 
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\data\EntityCollection;
-use yii2lab\extension\common\helpers\Helper;
-use yii2lab\extension\common\helpers\UrlHelper;
-use yii2lab\extension\widget\helpers\WidgetHelper;
+use yii2rails\domain\data\EntityCollection;
+use yii2rails\extension\common\helpers\Helper;
+use yii2rails\extension\common\helpers\UrlHelper;
+use yii2rails\extension\widget\helpers\WidgetHelper;
 use yii2module\vendor\domain\entities\CommitEntity;
 use yii2module\vendor\domain\entities\RepoEntity;
 use yii2module\vendor\domain\enums\VersionTypeEnum;

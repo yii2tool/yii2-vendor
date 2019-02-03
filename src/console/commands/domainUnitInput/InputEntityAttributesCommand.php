@@ -2,7 +2,7 @@
 
 namespace yii2module\vendor\console\commands\domainUnitInput;
 
-use yii2lab\extension\console\helpers\input\Enter;
+use yii2rails\extension\console\helpers\input\Enter;
 use yii2module\vendor\console\commands\Base;
 
 class InputEntityAttributesCommand extends Base {

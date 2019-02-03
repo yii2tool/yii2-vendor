@@ -3,19 +3,19 @@
 namespace yii2module\vendor\domain\helpers;
 
 use yii\helpers\Inflector;
-use yii2lab\domain\helpers\DomainHelper;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
-use yii2lab\domain\generator\EntityGenerator;
-use yii2lab\domain\generator\MessageGenerator;
-use yii2lab\domain\generator\RepositoryGenerator;
-use yii2lab\domain\generator\RepositoryInterfaceGenerator;
-use yii2lab\domain\generator\RepositorySchemaGenerator;
-use yii2lab\domain\generator\ServiceGenerator;
-use yii2lab\domain\generator\ServiceInterfaceGenerator;
-use yii2lab\extension\code\helpers\parser\DocCommentHelper;
-use yii2lab\extension\code\helpers\parser\TokenCollectionHelper;
-use yii2lab\extension\code\helpers\parser\TokenHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\helpers\DomainHelper;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\domain\generator\EntityGenerator;
+use yii2rails\domain\generator\MessageGenerator;
+use yii2rails\domain\generator\RepositoryGenerator;
+use yii2rails\domain\generator\RepositoryInterfaceGenerator;
+use yii2rails\domain\generator\RepositorySchemaGenerator;
+use yii2rails\domain\generator\ServiceGenerator;
+use yii2rails\domain\generator\ServiceInterfaceGenerator;
+use yii2rails\extension\code\helpers\parser\DocCommentHelper;
+use yii2rails\extension\code\helpers\parser\TokenCollectionHelper;
+use yii2rails\extension\code\helpers\parser\TokenHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 class GeneratorHelper {
 	

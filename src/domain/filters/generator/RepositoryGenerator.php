@@ -3,12 +3,12 @@
 namespace yii2module\vendor\domain\filters\generator;
 
 use yii\helpers\Inflector;
-use yii2lab\extension\code\entities\ClassEntity;
-use yii2lab\extension\code\entities\DocBlockEntity;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
-use yii2lab\extension\code\entities\InterfaceEntity;
-use yii2lab\extension\code\enums\AccessEnum;
-use yii2lab\extension\code\helpers\ClassHelper;
+use yii2rails\extension\code\entities\ClassEntity;
+use yii2rails\extension\code\entities\DocBlockEntity;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\extension\code\entities\InterfaceEntity;
+use yii2rails\extension\code\enums\AccessEnum;
+use yii2rails\extension\code\helpers\ClassHelper;
 
 /**
  * Class RepositoryGenerator
@@ -53,7 +53,7 @@ class RepositoryGenerator extends BaseGenerator {
 			]);
 			$uses = [
 				['name' => $repositoryInterfaceClassName],
-				['name' => 'yii2lab\domain\repositories\BaseRepository'],
+				['name' => 'yii2rails\domain\repositories\BaseRepository'],
 			];
 			ClassHelper::generate($classEntity, $uses);
 		}
@@ -66,7 +66,7 @@ class RepositoryGenerator extends BaseGenerator {
 		if($this->isActive) {
 			$classEntity->extends = 'CrudInterface';
 			$uses = [
-				['name' => 'yii2lab\domain\interfaces\repositories\CrudInterface'],
+				['name' => 'yii2rails\domain\interfaces\repositories\CrudInterface'],
 			];
 		}
 		$classEntity->doc_block = new DocBlockEntity([
@@ -85,7 +85,7 @@ class RepositoryGenerator extends BaseGenerator {
 			'title' => 'Class' . SPC . $classEntity->name,
 		]);
 		$uses = [
-			['name' => 'yii2lab\domain\repositories\relations\BaseSchema'],
+			['name' => 'yii2rails\domain\repositories\relations\BaseSchema'],
 		];
 		ClassHelper::generate($classEntity, $uses);
 	}

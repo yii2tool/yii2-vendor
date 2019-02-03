@@ -4,7 +4,7 @@ namespace yii2module\vendor\domain\services;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
-use yii2lab\domain\services\base\BaseService;
+use yii2rails\domain\services\base\BaseService;
 use yii2module\vendor\domain\filters\generator\EntityGenerator;
 use yii2module\vendor\domain\filters\generator\RepositoryGenerator;
 use yii2module\vendor\domain\filters\generator\ServiceGenerator;

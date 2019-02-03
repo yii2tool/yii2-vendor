@@ -5,10 +5,10 @@ namespace yii2module\vendor\console\controllers;
 use Yii;
 use yii\console\ExitCode;
 use yii\helpers\Console;
-use yii2lab\extension\console\helpers\input\Question;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\console\base\Controller;
-use yii2lab\domain\data\EntityCollection;
+use yii2rails\extension\console\helpers\input\Question;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\console\base\Controller;
+use yii2rails\domain\data\EntityCollection;
 use yii2module\vendor\domain\entities\TestEntity;
 
 class TestController extends Controller

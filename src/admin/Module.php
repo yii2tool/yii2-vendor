@@ -3,7 +3,7 @@
 namespace yii2module\vendor\admin;
 
 use yii\base\Module as YiiModule;
-use yii2lab\domain\helpers\DomainHelper;
+use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * welcome module definition class

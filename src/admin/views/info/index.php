@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-use yii2lab\extension\yii\helpers\Html;
+use yii2rails\extension\yii\helpers\Html;
 
 ?>
 

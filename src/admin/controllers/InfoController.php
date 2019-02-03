@@ -4,9 +4,9 @@ namespace yii2module\vendor\admin\controllers;
 
 use Yii;
 use yii\data\ArrayDataProvider;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\web\ActiveController as Controller;
-use yii2lab\extension\web\helpers\Behavior;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\web\ActiveController as Controller;
+use yii2rails\extension\web\helpers\Behavior;
 use yii2module\vendor\domain\entities\CommitEntity;
 use yii2module\vendor\domain\entities\RepoEntity;
 use yii2module\vendor\domain\enums\VendorPermissionEnum;

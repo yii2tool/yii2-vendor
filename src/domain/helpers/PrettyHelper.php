@@ -4,14 +4,14 @@ namespace yii2module\vendor\domain\helpers;
 
 use yii\base\InvalidArgumentException;
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\Domain;
-use yii2lab\domain\generator\RepositoryInterfaceGenerator;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
-use yii2lab\extension\code\helpers\parser\DocCommentHelper;
-use yii2lab\extension\code\helpers\parser\TokenCollectionHelper;
-use yii2lab\extension\code\helpers\parser\TokenHelper;
-use yii2lab\extension\common\helpers\ClassHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\Domain;
+use yii2rails\domain\generator\RepositoryInterfaceGenerator;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\extension\code\helpers\parser\DocCommentHelper;
+use yii2rails\extension\code\helpers\parser\TokenCollectionHelper;
+use yii2rails\extension\code\helpers\parser\TokenHelper;
+use yii2rails\extension\common\helpers\ClassHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 class PrettyHelper {
 	

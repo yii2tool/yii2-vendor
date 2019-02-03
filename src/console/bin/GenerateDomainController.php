@@ -3,8 +3,8 @@
 namespace yii2module\vendor\console\bin;
 
 use yii\console\Controller;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\scenario\collections\ScenarioCollection;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\scenario\collections\ScenarioCollection;
 use yii2module\vendor\console\commands\domainUnitGenerator\GenerateEntityCommand;
 use yii2module\vendor\console\commands\domainUnitGenerator\GenerateRepositoryCommand;
 use yii2module\vendor\console\commands\domainUnitGenerator\GenerateServiceCommand;

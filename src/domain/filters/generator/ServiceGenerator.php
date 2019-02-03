@@ -3,11 +3,11 @@
 namespace yii2module\vendor\domain\filters\generator;
 
 use yii\helpers\Inflector;
-use yii2lab\extension\code\entities\ClassEntity;
-use yii2lab\extension\code\entities\DocBlockEntity;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
-use yii2lab\extension\code\entities\InterfaceEntity;
-use yii2lab\extension\code\helpers\ClassHelper;
+use yii2rails\extension\code\entities\ClassEntity;
+use yii2rails\extension\code\entities\DocBlockEntity;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\extension\code\entities\InterfaceEntity;
+use yii2rails\extension\code\helpers\ClassHelper;
 
 /**
  * Class ServiceGenerator
@@ -34,11 +34,11 @@ class ServiceGenerator extends BaseGenerator {
 			['name' => $ServiceInterfaceClassName],
 		];
 		if($this->isActive) {
-			$uses[] = ['name' => 'yii2lab\domain\services\base\BaseActiveService'];
+			$uses[] = ['name' => 'yii2rails\domain\services\base\BaseActiveService'];
 			$classEntity->extends = 'BaseActiveService';
 			
 		} else {
-			$uses[] = ['name' => 'yii2lab\domain\services\base\BaseService'];
+			$uses[] = ['name' => 'yii2rails\domain\services\base\BaseService'];
 			$classEntity->extends = 'BaseService';
 		}
 		$classEntity->doc_block = new DocBlockEntity([
@@ -56,7 +56,7 @@ class ServiceGenerator extends BaseGenerator {
 		if($this->isActive) {
 			$classEntity->extends = 'CrudInterface';
 			$uses = [
-				['name' => 'yii2lab\domain\interfaces\services\CrudInterface'],
+				['name' => 'yii2rails\domain\interfaces\services\CrudInterface'],
 			];
 		}
 		$classEntity->doc_block = new DocBlockEntity([

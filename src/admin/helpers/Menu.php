@@ -2,8 +2,8 @@
 
 namespace yii2module\vendor\admin\helpers;
 
-use yii2lab\extension\menu\interfaces\MenuInterface;
-use yii2lab\extension\common\helpers\ModuleHelper;
+use yii2rails\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\common\helpers\ModuleHelper;
 use yii2module\vendor\domain\enums\VendorPermissionEnum;
 
 class Menu implements MenuInterface {

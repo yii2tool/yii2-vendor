@@ -4,8 +4,8 @@ namespace yii2module\vendor\domain\forms;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\base\Model;
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\base\Model;
+use yii2rails\domain\enums\Driver;
 
 class GenerateRepositoryForm extends Model {
 	

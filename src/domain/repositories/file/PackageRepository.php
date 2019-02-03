@@ -2,9 +2,9 @@
 
 namespace yii2module\vendor\domain\repositories\file;
 
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\extension\yii\helpers\FileHelper;
-use yii2lab\extension\store\Store;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\yii\helpers\FileHelper;
+use yii2rails\extension\store\Store;
 use yii2module\vendor\domain\entities\PackageEntity;
 
 class PackageRepository extends BaseRepository {

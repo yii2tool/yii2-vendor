@@ -3,9 +3,9 @@
 namespace yii2module\vendor\domain\services;
 
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\data\EntityCollection;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\data\EntityCollection;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\vendor\domain\entities\DomainEntity;
 use yii2module\vendor\domain\entities\PackageEntity;
 use yii2module\vendor\domain\helpers\FindHelper;

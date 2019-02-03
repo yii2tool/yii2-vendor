@@ -3,9 +3,9 @@
 namespace yii2module\vendor\domain\helpers;
 
 use yii\base\InvalidArgumentException;
-use yii2lab\domain\Domain;
-use yii2lab\extension\common\helpers\ClassHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\Domain;
+use yii2rails\extension\common\helpers\ClassHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2mod\helpers\ArrayHelper;
 
 class FindHelper {

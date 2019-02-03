@@ -4,8 +4,8 @@
  * @var $entity \yii2module\vendor\domain\entities\RepoEntity
  * @var $versionVariations array
  */
-use yii2lab\extension\clipboardJs\ClipboardJsAsset;
-use yii2lab\extension\widget\entityActions\EntityActionsWidget;
+use yii2rails\extension\clipboardJs\ClipboardJsAsset;
+use yii2rails\extension\widget\entityActions\EntityActionsWidget;
 
 $this->title = $entity->package;
 

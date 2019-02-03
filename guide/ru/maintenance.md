@@ -10,11 +10,11 @@
 /**
  * Class Db
  *
- * @package yii2lab\app\helpers
+ * @package yii2rails\app\helpers
  *
- * @deprecated moved to \yii2lab\app\domain\helpers\Db
+ * @deprecated moved to \yii2rails\app\domain\helpers\Db
  */
-class Db extends \yii2lab\app\domain\helpers\Db {}
+class Db extends \yii2rails\app\domain\helpers\Db {}
 ```
 
 ## Зависимости

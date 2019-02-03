@@ -7,7 +7,7 @@
 
 use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
-use yii2lab\extension\yii\helpers\Html;
+use yii2rails\extension\yii\helpers\Html;
 use yii2module\vendor\domain\entities\CommitEntity;
 use yii2module\vendor\domain\helpers\VersionHelper;
 

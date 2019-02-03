@@ -3,10 +3,10 @@
 namespace yii2module\vendor\domain\helpers\generator;
 
 use yii\helpers\Inflector;
-use yii2lab\domain\generator\RepositoryGenerator;
-use yii2lab\domain\generator\RepositoryInterfaceGenerator;
-use yii2lab\domain\generator\RepositorySchemaGenerator;
-use yii2lab\extension\code\entities\DocBlockParameterEntity;
+use yii2rails\domain\generator\RepositoryGenerator;
+use yii2rails\domain\generator\RepositoryInterfaceGenerator;
+use yii2rails\domain\generator\RepositorySchemaGenerator;
+use yii2rails\extension\code\entities\DocBlockParameterEntity;
 
 class RepositoryGeneratorHelper {
 	

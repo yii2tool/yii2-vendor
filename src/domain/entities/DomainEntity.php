@@ -2,9 +2,9 @@
 
 namespace yii2module\vendor\domain\entities;
 
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\common\helpers\ClassHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\common\helpers\ClassHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 /**
  * Class DomainEntity

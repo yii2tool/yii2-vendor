@@ -6,7 +6,7 @@
  */
 
 use yii2module\vendor\domain\helpers\VersionHelper;
-use yii2lab\extension\widget\helpers\WidgetHelper;
+use yii2rails\extension\widget\helpers\WidgetHelper;
 
 $params = $entity->toArray();
 $releaseUrl = WidgetHelper::renderTemplateByRepo($entity, 'new_tag');

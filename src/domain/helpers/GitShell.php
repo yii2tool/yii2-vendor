@@ -2,9 +2,9 @@
 
 namespace yii2module\vendor\domain\helpers;
 
-use yii2lab\extension\yii\helpers\FileHelper;
-use yii2lab\extension\shell\exceptions\ShellException;
-use yii2lab\extension\shell\base\BaseShell;
+use yii2rails\extension\yii\helpers\FileHelper;
+use yii2rails\extension\shell\exceptions\ShellException;
+use yii2rails\extension\shell\base\BaseShell;
 use yii2mod\helpers\ArrayHelper;
 
 class GitShell extends BaseShell {
