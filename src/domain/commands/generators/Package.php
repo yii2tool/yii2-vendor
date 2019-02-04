@@ -2,8 +2,8 @@
 
 namespace yii2module\vendor\domain\commands\generators;
 
-use yii2rails\extension\store\Store;
 use yii2module\vendor\domain\commands\Base;
+use yii2rails\extension\store\StoreFile;
 
 class Package extends Base {
 
@@ -15,8 +15,8 @@ class Package extends Base {
 	protected function generateComposer($data) {
 		$config = $this->generateComposerConfig($data);
 		$fileName = $this->packageFile($data['owner'], $data['name'], 'composer.json');
-		$store = new Store('json');
-		$store->save($fileName, $config);
+		$store = new StoreFile($fileName);
+		$store->save($config);
 	}
 	
 	protected function generateGitIgnore($data) {

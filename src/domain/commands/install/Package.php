@@ -3,8 +3,8 @@
 namespace yii2module\vendor\domain\commands\install;
 
 use Yii;
-use yii2rails\extension\store\Store;
 use yii2module\vendor\domain\commands\Base;
+use yii2rails\extension\store\StoreFile;
 
 class Package extends Base {
 
@@ -29,8 +29,8 @@ class Package extends Base {
 	
 	protected function loadConfig() {
 		$composerConfig = $this->packageFile($this->data['owner'], $this->data['name'], 'composer.json');
-		$store = new Store('json');
-		$config = $store->load($composerConfig);
+		$store = new StoreFile($composerConfig);
+		$config = $store->load();
 		return $config;
 	}
 }

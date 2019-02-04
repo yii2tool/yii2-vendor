@@ -3,16 +3,16 @@
 namespace yii2module\vendor\domain\repositories\file;
 
 use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\store\StoreFile;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2rails\extension\store\Store;
 use yii2module\vendor\domain\entities\PackageEntity;
 
 class PackageRepository extends BaseRepository {
 	
 	public function load($alias = null) {
 		$fileName = $this->getFileName($alias);
-		$store = new Store('json');
-		$config = $store->load($fileName);
+		$store = new StoreFile($fileName);
+		$config = $store->load();
 		return $this->forgeEntity([
 			'alias' => $alias,
 			'config' => $config,
@@ -21,8 +21,8 @@ class PackageRepository extends BaseRepository {
 	
 	public function save(PackageEntity $entity) {
 		$fileName = $this->getFileName($entity->alias);
-		$store = new Store('json');
-		$store->save($fileName, $entity->config);
+		$store = new StoreFile($fileName);
+		$store->save($entity->config);
 	}
 	
 	private function getFileName($alias = null) {
