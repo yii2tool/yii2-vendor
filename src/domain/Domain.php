@@ -44,7 +44,11 @@ class Domain extends \yii2rails\domain\Domain {
 				'git',
 				'test' => [
 					'aliases' => [
-						//'domain/v1/account',
+						'api',
+                        'backend',
+                        'common',
+                        'frontend',
+                        'domain',
 					],
 				],
 				'generator' => [

@@ -17,7 +17,7 @@ use yii2module\vendor\domain\repositories\file\TestRepository;
 class TestService extends BaseActiveService {
 	
 	public $ignore;
-	public $aliases;
+	public $aliases = [];
 	
 	public function run($directory) {
 		return $this->repository->run($directory);
@@ -48,7 +48,7 @@ class TestService extends BaseActiveService {
 		}
 		foreach($this->aliases as $alias) {
 			$directory = FileHelper::getAlias($alias);
-		    if(FileHelper::has($directory)) {
+		    if(FileHelper::has($directory) && FileHelper::has($directory . DS . 'codeception.yml')) {
                 $collection[] = [
                     'name' => trim($alias, '@/'),
                     'directory' => $directory,
