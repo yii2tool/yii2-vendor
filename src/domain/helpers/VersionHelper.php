@@ -165,7 +165,9 @@ class VersionHelper {
 				foreach($tValue as $exp) {
 					$exp = '#' . $exp . '#i';
 					if(preg_match($exp, $commit->message)) {
-						$type[$tName]++;
+					    $value = ArrayHelper::getValue($type, $tName, 0);
+                        $value++;
+                        $type[$tName] = $value;
 					}
 				}
 			}
