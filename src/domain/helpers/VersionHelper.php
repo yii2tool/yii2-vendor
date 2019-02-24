@@ -82,7 +82,7 @@ class VersionHelper {
 	private static function getProfileConfig($remote_url, $key = null) {
 		$url = UrlHelper::parse($remote_url);
 		$host = $url['host'];
-		$config = self::$remotes[$host];
+		$config = ArrayHelper::getValue(self::$remotes, $host);
 		if(!empty($key)) {
 			return ArrayHelper::getValue($config, $key);
 		}
@@ -164,7 +164,7 @@ class VersionHelper {
 			foreach(self::$types as $tName => $tValue) {
 				foreach($tValue as $exp) {
 					$exp = '#' . $exp . '#i';
-					if(preg_match($exp, $commit->message)) {
+					if(preg_match($exp, $commit->message) && isset($type[$tName])) {
 						$type[$tName]++;
 					}
 				}
