@@ -31,9 +31,9 @@ class FindHelper {
 			foreach($domains as $domain) {
 				$domain = FileHelper::fileRemoveExt($domain);
 				$domainClass = ClassHelper::normalizeClassName($domainAliasName . BSL . $domain);
-				if(self::isDomainClass($domainClass)) {
+				//if(self::isDomainClass($domainClass)) {
 					$aliases[] = dirname($domainClass);
-				}
+				//}
 			}
 		}
 		return $aliases;

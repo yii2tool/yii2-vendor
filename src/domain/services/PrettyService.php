@@ -31,10 +31,8 @@ class PrettyService extends BaseActiveService {
 	}
 	
 	public function all(Query $query = null) {
-		/** @var PackageEntity[] $packageCollection */
-		$packageCollection = $this->domain->info->all();
-		$aliases = ArrayHelper::getColumn($packageCollection, 'alias');
-		$aliases[] = 'domain';
+        $aliases = $this->packageAliasArray();
+        $aliases[] = 'domain';
 		$domains = FindHelper::scanForDomain($aliases);
 		$collection = new EntityCollection(DomainEntity::class);
 		foreach($domains as $domain) {
@@ -44,5 +42,23 @@ class PrettyService extends BaseActiveService {
 		}
 		return $collection;
 	}
-	
+
+	private function packageAliasArray() {
+        $query = new Query;
+        $query->with('config');
+        /** @var PackageEntity[] $packageCollection */
+        $packageCollection = \App::$domain->package->package->all($query);
+        $autoloadMap = ArrayHelper::getColumn($packageCollection, 'config.autoload.psr-4');
+        $autoloadArray = [];
+        foreach ($autoloadMap as &$autoload) {
+            $autoloadArray = ArrayHelper::merge($autoloadArray, $autoload);
+        }
+        $aliases = array_keys($autoloadArray);
+        foreach ($aliases as &$alias) {
+            $alias = trim($alias, '\\/');
+            $alias = str_replace('\\', '/', $alias);
+        }
+        return $aliases;
+    }
+
 }

@@ -104,6 +104,9 @@ class RepoEntity extends BaseEntity {
 		}
 		//$versionList = ArrayHelper::flatten($this->tags);
 		$versionList = VersionHelper::sort($this->tags);
+		if(empty($versionList)) {
+		    return 'dev-master';
+        }
 		$last = $versionList[0];
 		$last = trim($last->name, 'v');
 		return $last;
