@@ -191,7 +191,7 @@ class VersionHelper {
 			$version = self::getLastFromTree($tree);
 			$items[] = $version;
 			$result[$name] = self::buildNextVersion($items);
-			$tree = $tree[$version];
+			$tree = ArrayHelper::getValue($tree, $version);
 		}
 		return $result;
 	}
