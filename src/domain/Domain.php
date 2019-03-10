@@ -38,7 +38,7 @@ class Domain extends \yii2rails\domain\Domain {
 				'package' => [
 					'aliases' => [
 						'@root',
-						'@vendor/yii2bundle/yii2-application-template',
+						//'@vendor/yii2bundle/yii2-application-template',
 					],
 				],
 				'git',
