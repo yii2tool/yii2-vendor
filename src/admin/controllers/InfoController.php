@@ -1,16 +1,16 @@
 <?php
 
-namespace yii2module\vendor\admin\controllers;
+namespace yii2tool\vendor\admin\controllers;
 
 use Yii;
 use yii\data\ArrayDataProvider;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\web\ActiveController as Controller;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2module\vendor\domain\entities\CommitEntity;
-use yii2module\vendor\domain\entities\RepoEntity;
-use yii2module\vendor\domain\enums\VendorPermissionEnum;
-use yii2module\vendor\domain\helpers\VersionHelper;
+use yii2tool\vendor\domain\entities\CommitEntity;
+use yii2tool\vendor\domain\entities\RepoEntity;
+use yii2tool\vendor\domain\enums\VendorPermissionEnum;
+use yii2tool\vendor\domain\helpers\VersionHelper;
 
 class InfoController extends Controller {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\console\events;
+namespace yii2tool\vendor\console\events;
 
 use yii\base\Event;
 

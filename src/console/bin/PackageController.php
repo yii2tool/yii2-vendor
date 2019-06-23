@@ -1,8 +1,8 @@
 <?php
 
-namespace yii2module\vendor\console\bin;
+namespace yii2tool\vendor\console\bin;
 
-use yii2module\vendor\console\helpers\SelectPackageHelper;
+use yii2tool\vendor\console\helpers\SelectPackageHelper;
 use yii2rails\extension\console\helpers\Alert;
 use yii2rails\extension\console\helpers\input\Enter;
 use yii2rails\extension\console\helpers\input\Select;

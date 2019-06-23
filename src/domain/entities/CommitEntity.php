@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\entities;
+namespace yii2tool\vendor\domain\entities;
 
 use yii\helpers\ArrayHelper;
 use yii2rails\domain\BaseEntity;
@@ -9,7 +9,7 @@ use yii2rails\domain\values\TimeValue;
 /**
  * Class PackageEntity
  *
- * @package yii2module\vendor\domain\entities
+ * @package yii2tool\vendor\domain\entities
  *
  * @property $sha
  * @property $author

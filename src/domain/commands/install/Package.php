@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\vendor\domain\commands\install;
+namespace yii2tool\vendor\domain\commands\install;
 
 use Yii;
-use yii2module\vendor\domain\commands\Base;
+use yii2tool\vendor\domain\commands\Base;
 use yii2rails\extension\store\StoreFile;
 
 class Package extends Base {

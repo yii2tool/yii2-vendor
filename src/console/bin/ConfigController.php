@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\console\bin;
+namespace yii2tool\vendor\console\bin;
 
 use Yii;
 use yii2rails\extension\console\helpers\Output;

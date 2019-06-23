@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\helpers;
+namespace yii2tool\vendor\domain\helpers;
 
 use yii\helpers\Inflector;
 use yii2rails\domain\helpers\DomainHelper;

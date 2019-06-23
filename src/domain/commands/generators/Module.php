@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\vendor\domain\commands\generators;
+namespace yii2tool\vendor\domain\commands\generators;
 
 use yii2rails\extension\code\helpers\generator\ClassGeneratorHelper;
-use yii2module\vendor\domain\commands\Base;
+use yii2tool\vendor\domain\commands\Base;
 
 class Module extends Base {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\vendor\console\bin;
+namespace yii2tool\vendor\console\bin;
 
 use yii\console\Controller;
 use yii2rails\extension\console\helpers\input\Enter;
 use yii2rails\extension\console\helpers\input\Select;
 use yii2rails\extension\console\helpers\Output;
 use yii2mod\helpers\ArrayHelper;
-use yii2module\vendor\domain\enums\TypeEnum;
+use yii2tool\vendor\domain\enums\TypeEnum;
 
 class GeneratorController extends \yii\base\Component
 {

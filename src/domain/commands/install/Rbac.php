@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2module\vendor\domain\commands\install;
+namespace yii2tool\vendor\domain\commands\install;
 
 use Yii;
 use yii\helpers\Inflector;
 use yii2rails\extension\yii\helpers\FileHelper;
 use yii2mod\helpers\ArrayHelper;
-use yii2module\vendor\domain\commands\Base;
+use yii2tool\vendor\domain\commands\Base;
 
 class Rbac extends Base {
 

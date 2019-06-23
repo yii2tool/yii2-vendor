@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\admin;
+namespace yii2tool\vendor\admin;
 
 use yii\base\Module as YiiModule;
 use yii2rails\domain\helpers\DomainHelper;
@@ -15,7 +15,7 @@ class Module extends YiiModule
 	
 	public function init() {
 		DomainHelper::forgeDomains([
-			'vendor' => 'yii2module\vendor\domain\Domain',
+			'vendor' => 'yii2tool\vendor\domain\Domain',
 		]);
 		parent::init();
 	}

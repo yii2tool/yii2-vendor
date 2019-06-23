@@ -1,24 +1,24 @@
 <?php
 
-namespace yii2module\vendor\domain\services;
+namespace yii2tool\vendor\domain\services;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
 use yii2rails\domain\services\base\BaseService;
-use yii2module\vendor\domain\filters\generator\EntityGenerator;
-use yii2module\vendor\domain\filters\generator\RepositoryGenerator;
-use yii2module\vendor\domain\filters\generator\ServiceGenerator;
-use yii2module\vendor\domain\helpers\GeneratorHelper;
-use yii2module\vendor\domain\helpers\PrettyHelper;
-use yii2module\vendor\domain\repositories\file\GeneratorRepository;
+use yii2tool\vendor\domain\filters\generator\EntityGenerator;
+use yii2tool\vendor\domain\filters\generator\RepositoryGenerator;
+use yii2tool\vendor\domain\filters\generator\ServiceGenerator;
+use yii2tool\vendor\domain\helpers\GeneratorHelper;
+use yii2tool\vendor\domain\helpers\PrettyHelper;
+use yii2tool\vendor\domain\repositories\file\GeneratorRepository;
 
 /**
  * Class GeneratorService
  *
- * @package yii2module\vendor\domain\services
+ * @package yii2tool\vendor\domain\services
  *
  * @property-read GeneratorRepository $repository
- * @property-read \yii2module\vendor\domain\Domain $domain
+ * @property-read \yii2tool\vendor\domain\Domain $domain
  */
 class GeneratorService extends BaseService {
 

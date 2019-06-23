@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii2rails\extension\scenario\collections\ScenarioCollection;
 use yii2rails\extension\scenario\helpers\ScenarioHelper;
@@ -8,8 +8,8 @@ use yii2rails\domain\repositories\BaseRepository;
 
 class GeneratorRepository extends BaseRepository {
 	
-	const GENERATOR_DIR = 'yii2module\vendor\domain\commands\generators\\';
-	const INSTALL_DIR = 'yii2module\vendor\domain\commands\install\\';
+	const GENERATOR_DIR = 'yii2tool\vendor\domain\commands\generators\\';
+	const INSTALL_DIR = 'yii2tool\vendor\domain\commands\install\\';
 	
 	/**
 	 * @param $config

@@ -1,8 +1,8 @@
 <?php
 
-namespace yii2module\vendor\domain\commands\install;
+namespace yii2tool\vendor\domain\commands\install;
 
-use yii2module\vendor\domain\commands\Base;
+use yii2tool\vendor\domain\commands\Base;
 
 class Domain extends Base {
 

@@ -1,20 +1,20 @@
 <?php
 
-namespace yii2module\vendor\domain;
+namespace yii2tool\vendor\domain;
 
 use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
  * 
- * @package yii2module\vendor\domain
- * @property \yii2module\vendor\domain\services\InfoService $info
- * @property \yii2module\vendor\domain\services\PackageService $package
- * @property \yii2module\vendor\domain\services\GitService $git
- * @property \yii2module\vendor\domain\services\TestService $test
- * @property \yii2module\vendor\domain\services\GeneratorService $generator
- * @property \yii2module\vendor\domain\services\PrettyService $pretty
- * @property-read \yii2module\vendor\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @package yii2tool\vendor\domain
+ * @property \yii2tool\vendor\domain\services\InfoService $info
+ * @property \yii2tool\vendor\domain\services\PackageService $package
+ * @property \yii2tool\vendor\domain\services\GitService $git
+ * @property \yii2tool\vendor\domain\services\TestService $test
+ * @property \yii2tool\vendor\domain\services\GeneratorService $generator
+ * @property \yii2tool\vendor\domain\services\PrettyService $pretty
+ * @property-read \yii2tool\vendor\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	

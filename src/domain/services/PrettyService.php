@@ -1,24 +1,24 @@
 <?php
 
-namespace yii2module\vendor\domain\services;
+namespace yii2tool\vendor\domain\services;
 
 use yii\helpers\ArrayHelper;
 use yii2rails\domain\data\EntityCollection;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2module\vendor\domain\entities\DomainEntity;
-use yii2module\vendor\domain\entities\PackageEntity;
-use yii2module\vendor\domain\helpers\FindHelper;
-use yii2module\vendor\domain\helpers\PrettyHelper;
-use yii2module\vendor\domain\repositories\file\PrettyRepository;
+use yii2tool\vendor\domain\entities\DomainEntity;
+use yii2tool\vendor\domain\entities\PackageEntity;
+use yii2tool\vendor\domain\helpers\FindHelper;
+use yii2tool\vendor\domain\helpers\PrettyHelper;
+use yii2tool\vendor\domain\repositories\file\PrettyRepository;
 
 /**
  * Class PrettyService
  *
- * @package yii2module\vendor\domain\services
+ * @package yii2tool\vendor\domain\services
  *
  * @property-read PrettyRepository $repository
- * @property-read \yii2module\vendor\domain\Domain $domain
+ * @property-read \yii2tool\vendor\domain\Domain $domain
  */
 class PrettyService extends BaseActiveService {
 

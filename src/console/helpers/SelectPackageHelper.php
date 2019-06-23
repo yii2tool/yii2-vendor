@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\console\helpers;
+namespace yii2tool\vendor\console\helpers;
 
 use yii\base\Event;
 use yii2rails\extension\console\helpers\input\Select;

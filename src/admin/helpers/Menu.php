@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\vendor\admin\helpers;
+namespace yii2tool\vendor\admin\helpers;
 
 use yii2rails\extension\menu\interfaces\MenuInterface;
 use yii2rails\extension\common\helpers\ModuleHelper;
-use yii2module\vendor\domain\enums\VendorPermissionEnum;
+use yii2tool\vendor\domain\enums\VendorPermissionEnum;
 
 class Menu implements MenuInterface {
 	

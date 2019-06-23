@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\vendor\domain\entities;
+namespace yii2tool\vendor\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class PackageEntity
  *
- * @package yii2module\vendor\domain\entities
+ * @package yii2tool\vendor\domain\entities
  *
  * @property $name
  * @property $version

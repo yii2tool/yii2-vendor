@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii2rails\domain\repositories\BaseRepository;
-use yii2module\vendor\domain\entities\TestEntity;
-use yii2module\vendor\domain\helpers\TestShell;
+use yii2tool\vendor\domain\entities\TestEntity;
+use yii2tool\vendor\domain\helpers\TestShell;
 
 class TestRepository extends BaseRepository {
 

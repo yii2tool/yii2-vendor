@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View
- * @var $entity \yii2module\vendor\domain\entities\RepoEntity
+ * @var $entity \yii2tool\vendor\domain\entities\RepoEntity
  * @var $versionVariations array
  */
 use yii2rails\extension\clipboardJs\ClipboardJsAsset;

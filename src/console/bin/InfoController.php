@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\console\bin;
+namespace yii2tool\vendor\console\bin;
 
 use Yii;
 use yii\helpers\Inflector;
@@ -8,7 +8,7 @@ use yii2rails\extension\console\helpers\input\Select;
 use yii2rails\extension\console\helpers\Output;
 use yii2rails\extension\console\base\Controller;
 use yii\helpers\ArrayHelper;
-use yii2module\vendor\domain\entities\RequiredEntity;
+use yii2tool\vendor\domain\entities\RequiredEntity;
 
 class InfoController extends \yii\base\Component
 {

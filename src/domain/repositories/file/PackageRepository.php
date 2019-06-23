@@ -1,11 +1,11 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\store\StoreFile;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\vendor\domain\entities\PackageEntity;
+use yii2tool\vendor\domain\entities\PackageEntity;
 
 class PackageRepository extends BaseRepository {
 	

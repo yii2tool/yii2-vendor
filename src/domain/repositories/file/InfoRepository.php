@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii\base\InvalidArgumentException;
 use yii\web\NotFoundHttpException;
@@ -10,19 +10,19 @@ use yii2rails\domain\data\Query;
 use yii2rails\domain\interfaces\repositories\ReadInterface;
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\vendor\domain\entities\RepoEntity;
-use yii2module\vendor\domain\entities\RequiredEntity;
-use yii2module\vendor\domain\filters\IsIgnoreFilter;
-use yii2module\vendor\domain\filters\IsPackageFilter;
-use yii2module\vendor\domain\helpers\RepositoryHelper;
-use yii2module\vendor\domain\helpers\UseHelper;
+use yii2tool\vendor\domain\entities\RepoEntity;
+use yii2tool\vendor\domain\entities\RequiredEntity;
+use yii2tool\vendor\domain\filters\IsIgnoreFilter;
+use yii2tool\vendor\domain\filters\IsPackageFilter;
+use yii2tool\vendor\domain\helpers\RepositoryHelper;
+use yii2tool\vendor\domain\helpers\UseHelper;
 
 /**
  * Class InfoRepository
  *
- * @package yii2module\vendor\domain\repositories\file
+ * @package yii2tool\vendor\domain\repositories\file
  *
- * @property-read \yii2module\vendor\domain\Domain $domain
+ * @property-read \yii2tool\vendor\domain\Domain $domain
  */
 class InfoRepository extends BaseRepository implements ReadInterface {
 	

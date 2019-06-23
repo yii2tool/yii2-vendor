@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\forms;
+namespace yii2tool\vendor\domain\forms;
 
 use Yii;
 use yii\helpers\ArrayHelper;

@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\vendor\console\commands\domainUnitGenerator;
+namespace yii2tool\vendor\console\commands\domainUnitGenerator;
 
 use yii\helpers\ArrayHelper;
-use yii2module\vendor\console\commands\Base;
+use yii2tool\vendor\console\commands\Base;
 
 class GenerateServiceCommand extends Base {
 	

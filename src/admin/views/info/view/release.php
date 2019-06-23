@@ -1,11 +1,11 @@
 <?php
 
 /* @var $this yii\web\View
- * @var $entity \yii2module\vendor\domain\entities\RepoEntity
+ * @var $entity \yii2tool\vendor\domain\entities\RepoEntity
  * @var $versionVariations array
  */
 
-use yii2module\vendor\domain\helpers\VersionHelper;
+use yii2tool\vendor\domain\helpers\VersionHelper;
 use yii2rails\extension\widget\helpers\WidgetHelper;
 
 $params = $entity->toArray();

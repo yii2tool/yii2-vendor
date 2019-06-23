@@ -1,20 +1,20 @@
 <?php
 
-namespace yii2module\vendor\console\controllers;
+namespace yii2tool\vendor\console\controllers;
 
 use yii\console\Controller;
 use yii2rails\extension\console\helpers\Output;
 use yii2rails\extension\scenario\collections\ScenarioCollection;
-use yii2module\vendor\console\commands\domainUnitGenerator\GenerateEntityCommand;
-use yii2module\vendor\console\commands\domainUnitGenerator\GenerateRepositoryCommand;
-use yii2module\vendor\console\commands\domainUnitGenerator\GenerateServiceCommand;
-use yii2module\vendor\console\commands\domainUnitInput\InputEntityAttributesCommand;
-use yii2module\vendor\console\commands\domainUnitInput\InputEntityNameCommand;
-use yii2module\vendor\console\commands\domainUnitInput\QuestionIsActiveCommand;
-use yii2module\vendor\console\commands\domainUnitInput\SelectDomainCommand;
-use yii2module\vendor\console\commands\domainUnitInput\SelectRepositoryDriversCommand;
-use yii2module\vendor\console\commands\domainUnitInput\SelectUnitTypesCommand;
-use yii2module\vendor\console\events\DomainEvent;
+use yii2tool\vendor\console\commands\domainUnitGenerator\GenerateEntityCommand;
+use yii2tool\vendor\console\commands\domainUnitGenerator\GenerateRepositoryCommand;
+use yii2tool\vendor\console\commands\domainUnitGenerator\GenerateServiceCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\InputEntityAttributesCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\InputEntityNameCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\QuestionIsActiveCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\SelectDomainCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\SelectRepositoryDriversCommand;
+use yii2tool\vendor\console\commands\domainUnitInput\SelectUnitTypesCommand;
+use yii2tool\vendor\console\events\DomainEvent;
 
 class GenerateDomainController extends Controller
 {

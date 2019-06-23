@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\commands;
+namespace yii2tool\vendor\domain\commands;
 
 use Yii;
 use yii\base\InvalidArgumentException;

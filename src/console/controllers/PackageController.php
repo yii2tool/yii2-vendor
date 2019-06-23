@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\console\controllers;
+namespace yii2tool\vendor\console\controllers;
 
 use yii2rails\extension\console\helpers\Alert;
 use yii2rails\extension\console\helpers\input\Enter;

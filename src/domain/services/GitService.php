@@ -1,17 +1,17 @@
 <?php
 
-namespace yii2module\vendor\domain\services;
+namespace yii2tool\vendor\domain\services;
 
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2module\vendor\domain\repositories\file\GitRepository;
+use yii2tool\vendor\domain\repositories\file\GitRepository;
 
 /**
  * Class GitService
  *
- * @package yii2module\vendor\domain\services
+ * @package yii2tool\vendor\domain\services
  *
  * @property-read GitRepository $repository
- * @property-read \yii2module\vendor\domain\Domain $domain
+ * @property-read \yii2tool\vendor\domain\Domain $domain
  */
 class GitService extends BaseActiveService {
 	

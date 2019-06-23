@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\helpers\generator;
+namespace yii2tool\vendor\domain\helpers\generator;
 
 use yii\helpers\Inflector;
 use yii2rails\domain\generator\RepositoryGenerator;

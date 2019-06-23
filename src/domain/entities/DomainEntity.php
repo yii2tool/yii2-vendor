@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\entities;
+namespace yii2tool\vendor\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 use yii2rails\extension\common\helpers\ClassHelper;
@@ -9,7 +9,7 @@ use yii2rails\extension\yii\helpers\FileHelper;
 /**
  * Class DomainEntity
  *
- * @package yii2module\vendor\domain\entities
+ * @package yii2tool\vendor\domain\entities
  *
  * @property $path
  * @property $directory_alias

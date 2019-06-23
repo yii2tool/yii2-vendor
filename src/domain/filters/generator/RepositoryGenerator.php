@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\filters\generator;
+namespace yii2tool\vendor\domain\filters\generator;
 
 use yii\helpers\Inflector;
 use yii2rails\extension\code\entities\ClassEntity;
@@ -13,7 +13,7 @@ use yii2rails\extension\code\helpers\ClassHelper;
 /**
  * Class RepositoryGenerator
  *
- * @package yii2module\vendor\domain\filters\generator
+ * @package yii2tool\vendor\domain\filters\generator
  *
  * @property boolean $isActive
  * @property array $drivers

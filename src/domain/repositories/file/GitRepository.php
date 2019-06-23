@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii2rails\domain\repositories\BaseRepository;
-use yii2module\vendor\domain\entities\RepoEntity;
-use yii2module\vendor\domain\helpers\RepositoryHelper;
+use yii2tool\vendor\domain\entities\RepoEntity;
+use yii2tool\vendor\domain\helpers\RepositoryHelper;
 
 class GitRepository extends BaseRepository {
 	

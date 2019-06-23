@@ -1,15 +1,15 @@
 <?php
 
 /* @var $this yii\web\View
- * @var $entity \yii2module\vendor\domain\entities\RepoEntity
- * @var $commits \yii2module\vendor\domain\entities\CommitEntity[]
+ * @var $entity \yii2tool\vendor\domain\entities\RepoEntity
+ * @var $commits \yii2tool\vendor\domain\entities\CommitEntity[]
  */
 
 use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
 use yii2rails\extension\yii\helpers\Html;
-use yii2module\vendor\domain\entities\CommitEntity;
-use yii2module\vendor\domain\helpers\VersionHelper;
+use yii2tool\vendor\domain\entities\CommitEntity;
+use yii2tool\vendor\domain\helpers\VersionHelper;
 
 $columns = [
 	[

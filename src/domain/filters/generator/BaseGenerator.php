@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\filters\generator;
+namespace yii2tool\vendor\domain\filters\generator;
 
 use yii2rails\extension\scenario\base\BaseScenario;
 use yii\helpers\Inflector;
@@ -8,7 +8,7 @@ use yii\helpers\Inflector;
 /**
  * Class BaseGenerator
  *
- * @package yii2module\vendor\domain\filters\generator
+ * @package yii2tool\vendor\domain\filters\generator
  *
  * @property string $namespace
  * @property-red string $alias

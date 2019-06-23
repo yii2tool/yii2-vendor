@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2module\vendor\domain\repositories\file;
+namespace yii2tool\vendor\domain\repositories\file;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\repositories\BaseRepository;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\vendor\domain\entities\DomainEntity;
-use yii2module\vendor\domain\helpers\PrettyHelper;
+use yii2tool\vendor\domain\entities\DomainEntity;
+use yii2tool\vendor\domain\helpers\PrettyHelper;
 
 class PrettyRepository extends BaseRepository {
 	

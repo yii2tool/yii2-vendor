@@ -14,7 +14,7 @@ return [
 	'modules' => [
 		// ...
 		'vendor' => [
-			'class' => 'yii2module\vendor\console\Module',
+			'class' => 'yii2tool\vendor\console\Module',
 		],
 		// ...
 	],
@@ -29,7 +29,7 @@ return [
 		// ...
 		'vendor' => [
         			'class' => 'yii2rails\domain\Domain',
-        			'path' => 'yii2module\vendor\domain',
+        			'path' => 'yii2tool\vendor\domain',
         			'repositories' => [
         				'generator' => Driver::FILE,
         			],

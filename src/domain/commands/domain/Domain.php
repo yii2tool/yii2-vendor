@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\vendor\domain\commands\domain;
+namespace yii2tool\vendor\domain\commands\domain;
 
 use yii2rails\extension\scenario\base\BaseScenario;
 

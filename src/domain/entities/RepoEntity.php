@@ -1,16 +1,16 @@
 <?php
 
-namespace yii2module\vendor\domain\entities;
+namespace yii2tool\vendor\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 use yii2rails\extension\package\domain\entities\GroupEntity;
 use yii2mod\helpers\ArrayHelper;
-use yii2module\vendor\domain\helpers\VersionHelper;
+use yii2tool\vendor\domain\helpers\VersionHelper;
 
 /**
  * Class RepoEntity
  *
- * @package yii2module\vendor\domain\entities
+ * @package yii2tool\vendor\domain\entities
  *
  * @property $id
  * @property $owner

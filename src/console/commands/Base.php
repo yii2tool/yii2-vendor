@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\vendor\console\commands;
+namespace yii2tool\vendor\console\commands;
 
 use yii2rails\extension\scenario\base\BaseScenario;
-use yii2module\vendor\console\events\DomainEvent;
+use yii2tool\vendor\console\events\DomainEvent;
 
 abstract class Base extends BaseScenario {
 	
