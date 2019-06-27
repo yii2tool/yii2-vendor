@@ -4,23 +4,27 @@
 Список незакомиченных пакетов:
 
 ```
-php yii vendor/info/all-changed
+cd vendor/yii2tool/yii2-vendor/bin
+php bin info/all-changed
 ```
 
 Список пакетов, для которых можно выпустить релиз:
 
 ```
-php yii vendor/info/all-for-release
+cd vendor/yii2tool/yii2-vendor/bin
+php bin info/all-for-release
 ```
 
 Список версий всех пакетов:
 
 ```
-php yii vendor/info/all-version
+cd vendor/yii2tool/yii2-vendor/bin
+php bin info/all-version
 ```
 
 Список зависимостей:
 
 ```
-php yii vendor/info/package-uses
+cd vendor/yii2tool/yii2-vendor/bin
+php bin info/package-uses
 ```
