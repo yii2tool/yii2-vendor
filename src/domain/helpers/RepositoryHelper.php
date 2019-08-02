@@ -4,7 +4,7 @@ namespace yii2tool\vendor\domain\helpers;
 
 use Yii;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\enums\LanguageEnum;
 
 class RepositoryHelper {
 	

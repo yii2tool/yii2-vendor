@@ -8,7 +8,7 @@ use yii\helpers\Url;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\web\ActiveController as Controller;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\widgets\Alert;
 use yii2tool\vendor\domain\enums\VendorPermissionEnum;
 
 class GitController extends Controller {
