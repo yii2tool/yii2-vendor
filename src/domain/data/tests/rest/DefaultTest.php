@@ -3,7 +3,7 @@
 namespace tests\rest;
 
 use yii2lab\rest\domain\helpers\MiscHelper;
-use yii2lab\test\Test\Rest;
+use yii2tool\test\Test\Rest;
 
 class DefaultTest extends Rest {
 	

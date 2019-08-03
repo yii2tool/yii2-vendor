@@ -2,7 +2,7 @@
 
 namespace tests\functional;
 
-use yii2lab\test\Test\Unit;
+use yii2tool\test\Test\Unit;
 
 class DefaultTest extends Unit
 {
