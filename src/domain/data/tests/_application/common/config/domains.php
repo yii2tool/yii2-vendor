@@ -5,7 +5,7 @@ use yii2rails\domain\enums\Driver;
 use yii2lab\test\helpers\TestHelper;
 
 $config = [
-	'account' => 'yii2module\account\domain\v3\Domain',
+	'account' => 'yii2bundle\account\domain\v3\Domain',
 ];
 
 $baseConfig = TestHelper::loadConfig('common/config/domains.php');
